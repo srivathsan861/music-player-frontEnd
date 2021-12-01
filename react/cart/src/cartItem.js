@@ -7,19 +7,69 @@ class CartItem extends React.Component{
 			price: 999,
 			title: "Mobile Phone",
 			qty: 1,
-			img: ''
+			img: '',
+			number: 1
 		}
 		// this.increaseQuantity = this.increaseQuantity.bind(this);
+		// this.testing();
 	}
 
+
+    
+
+  // testing () {
+  //   const promise = new Promise((resolve, reject) => {
+  //     setTimeout(() => {
+  //       resolve('done');
+  //     }, 5000);
+  //   })
+
+  //   promise.then(() => {
+  //     // setState acts like a synchronus call
+  //     this.setState({ qty: this.state.qty + 10 });
+
+  //     this.setState({ qty: this.state.qty + 10 });
+
+  //     this.setState({ qty: this.state.qty + 10 });
+
+  //     console.log('state', this.state);
+  //   });
+  // }
+  
+
      increaseQuantity = () =>{
-     	console.log('this.state',this.state);
+     	// this.state.qty += 1;
+     	// console.log('this.state',this.state);
+     	
+     	//setState form 1
+     	//setState triggers re-rendering of the page
+     	// this.setState({   
+     	// 	qty: this.state.qty + 1
+     	// });
+     	//setState form 2 - if prevState required use this
+     	this.setState( (prevState)=>{
+            return {
+            	qty: prevState.qty + 1
+            }
+     	});
+     }
+
+     decreaseQuantity = () =>{
+     	const {qty} = this.state;
+     	if(qty === 0){
+     		return;
+     	}
+     	this.setState( (prevState)=>{
+            return {
+            	qty: prevState.qty - 1
+            }
+     	});
      }
 
 	render(){
 		const{price,title,qty} = this.state; // object destructuring
 		return(
-		<div className="class-item">
+		<div className="cart-item">
 
 		 <div className="left-block">
 
@@ -44,6 +94,7 @@ class CartItem extends React.Component{
                 alt="Decrease" 
                 className="action-icons" 
                 src="https://cdn-icons-png.flaticon.com/512/992/992683.png"
+                onClick= {this.decreaseQuantity}
                 />
 
                 <img 
@@ -56,6 +107,7 @@ class CartItem extends React.Component{
 		 </div>
 			
 		</div>
+
 		);
 	}
 }
