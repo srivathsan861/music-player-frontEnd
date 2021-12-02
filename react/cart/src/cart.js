@@ -2,11 +2,51 @@ import React from 'react';
 import CartItem from './cartItem.js';
 
 class Cart extends React.Component{
+constructor(){
+	super();
+	this.state = {
+	 products: [
+             {
+	      price: 999,
+	      title: "Watch",
+		qty: 1,
+		img: '',
+		id: 1
+              },
+              {
+		price: 9999,
+		title: "Mobile Phone",
+		qty: 10,
+		img: '',
+		id: 2
+              },
+              {
+	      	price: 49999,
+		title: "Laptop",
+		qty: 4,
+		img: '',
+		id: 3
+	       }
+	           ]
+       };
+}
+
   render(){
+  	 const {products} = this.state;
 	 return(
            <div className="cart">
-            <CartItem />
-            <CartItem />
+             {
+             	products.map( (product) => {
+                return (
+                	 <CartItem 
+
+                	   product={product}
+                	   key={product.id}
+
+                	 />
+                	 )
+             })
+             }
            </div>
 	 );
    }
