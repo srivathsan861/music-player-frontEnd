@@ -1,66 +1,14 @@
 import React from 'react';
 
-class CartItem extends React.Component{
-	// this.increaseQuantity = this.increaseQuantity.bind(this);
-		// this.testing();
-    
-  // testing () {
-  //   const promise = new Promise((resolve, reject) => {
-  //     setTimeout(() => {
-  //       resolve('done');
-  //     }, 5000);
-  //   })
+const CartItem = (props) => {
 
-  //   promise.then(() => {
-  //     // setState acts like a synchronus call
-  //     this.setState({ qty: this.state.qty + 10 });
-
-  //     this.setState({ qty: this.state.qty + 10 });
-
-  //     this.setState({ qty: this.state.qty + 10 });
-
-  //     console.log('state', this.state);
-  //   });
-  // }
-  
-
-     increaseQuantity = () =>{
-     	// this.state.qty += 1;
-     	// console.log('this.state',this.state);
-     	
-     	//setState form 1
-     	//setState triggers re-rendering of the page
-     	// this.setState({   
-     	// 	qty: this.state.qty + 1
-     	// });
-     	//setState form 2 - if prevState required use this
-     	this.setState( (prevState)=>{
-            return {
-            	qty: prevState.qty + 1
-            }
-     	});
-     }
-
-     decreaseQuantity = () =>{
-     	const {qty} = this.state;
-     	if(qty === 0){
-     		return;
-     	}
-     	this.setState( (prevState)=>{
-            return {
-            	qty: prevState.qty - 1
-            }
-     	});
-     }
-
-	render(){
-		const{price,title,qty} = this.props.product; // object destructuring
-		const{product,onIncreaseQuantity,onDecreaseQuantity,onDeleteProduct} = this.props;
+		const{price,title,qty} = props.product; // object destructuring
+		const{product,onIncreaseQuantity,onDecreaseQuantity,onDeleteProduct} = props;
 		return(
 		<div className="cart-item">
 		 <div className="left-block">
 
-		  <img style={styles.image} alt=""/>
+		  <img style={styles.image} src={product.img} alt=""/>
 		 	
 		 </div>
 
@@ -97,7 +45,6 @@ class CartItem extends React.Component{
 		</div>
 
 		);
-	}
 }
 
 const styles = {
