@@ -1,0 +1,659 @@
+@media only screen and (max-width: 1200px){
+
+
+#logo-container{
+   left: 6rem;
+}
+
+.favo {
+   left: 13rem;
+   }
+
+#search-bar{
+  left:45rem;
+ }
+
+#bell-icon{
+  left: 59rem;
+ }
+   
+ #profile-pic{
+  left: 63rem;
+  }
+
+	 #individual-playlist{
+      height: 85vh;
+      width: 72vw;
+    }
+
+   .ip-header-container{
+    margin-left: -1rem;
+    margin-bottom: -4rem;
+   }
+     #ip-header-conent{
+     	margin-left: -6rem;
+     	height: 30rem;
+     }
+
+     .ip-title-align h2{
+      margin-top: 1rem;
+      margin-left: 2rem;
+     }
+ 
+     .ip-title-align p{
+      margin-top: 1.5rem;
+      margin-left: 10rem;
+      }
+
+      .ip-count{
+        margin: 0 2rem;
+       }
+
+     .ip-header-img img{
+      height: 80%;
+      width: 80%;
+     }
+
+     .button-container button{
+      margin: 3rem 4rem 4rem 2rem;
+     }
+
+     #follow{
+      margin-left: 3rem;
+     }
+
+     .ip-close{
+      margin-left: 1rem;
+     }
+
+     #individual-playlist .playlist-heart{
+      margin-left: 20rem;
+     }
+
+     #similar-artist{
+      left: 46rem;
+      top: 8rem;
+    }
+
+    #recently-played{
+      left: 46rem;
+      margin-top: -2rem;
+    }
+
+    #playlist-header{
+      height: 3rem;
+    }
+
+   #recently-played .view-all{
+      position: absolute;
+      left: 11rem;
+      margin: 0;
+      }
+
+    .playlist-heart{
+      margin-left: 4rem;
+    }
+  #audio-img img{
+      padding-top: 1rem;
+      height: 4rem;
+      width: 4rem;
+      padding-left: 1rem;
+   }
+
+   #audio-name-author{
+      font-size: 1rem;
+      font-weight: 0;
+   }
+
+    .song-status{
+      width: 25rem;
+    }
+
+    .sound-status{
+      width: 7rem;
+    }
+
+}
+
+@media only screen and (max-width: 1037px){
+  #search-bar{
+  left:38rem;
+ }
+
+#bell-icon{
+  left: 52rem;
+ }
+   
+ #profile-pic{
+  left: 56rem;
+  }
+
+ .ip-header-img img{
+      height: 60%;
+      width: 60%;
+     }
+ #ip-header-conent{
+      margin-left: -9rem;
+      height: 30rem;
+  }
+  .button-container{
+     position: absolute;
+     left: 0;
+     top: 11rem;
+  }
+
+  .ip-count{
+    position: absolute;
+    left: 10rem;
+    top: 14rem;
+  }
+
+    #follow{
+      position: absolute;
+      left: 18rem;
+      top: 14.5rem;
+    }
+
+    .ip-close{
+      position: absolute;
+      left: 30rem;
+      top: 14.5rem;
+     }  
+
+     #similar-artist{
+      left: 43rem;
+      top: 8rem;
+    }
+
+    #recently-played{
+      left: 43rem;
+      margin-top: -2rem;
+    }
+
+    .playlist-heart{
+      margin-left: 2rem;
+    }
+
+   .lr-widget-time-container{
+    margin-left: -1.5rem;
+   }
+
+   .view-all{
+    margin-left: -3rem;
+    padding-right: 2rem;
+   }
+
+   #audio-name-author{
+      font-size: 0.8rem;
+      font-weight: 0;
+   }
+
+     #audio-heart-ban{
+      margin-top: 1.2rem;
+      margin-left: 0.5rem;
+   }
+
+}
+
+@media only screen and (max-width: 900px){
+  #logo-container{
+   left: 2rem;
+}
+
+.favo {
+   left: 9rem;
+   }
+
+#search-bar{
+  left:30rem;
+ }
+
+#bell-icon{
+  left: 44rem;
+ }
+   
+ #profile-pic{
+  left: 48rem;
+  }
+
+#individual-playlist{
+  margin-left: -2rem;
+}
+
+ #ip-header-conent{
+      margin-left: -10rem;
+      height: 30rem;
+  }
+
+#followers{
+  margin-left: -3rem;
+}
+
+ .ip-header-desc{
+      width: 22rem;
+   }
+    
+  .button-container{
+     position: absolute;
+     left: 0;
+     top: 11rem;
+  }
+
+  .ip-count{
+    position: absolute;
+    left: 10rem;
+    top: 14rem;
+  }
+
+ #similar-artist{
+      left: 37rem;
+      top: 8rem;
+    }
+
+#recently-played{
+      left: 37rem;
+      margin-top: -2rem;
+    }
+
+    .playlist-heart{
+      margin-left: 0;
+    }
+
+    .lr-image img{
+      height: 5rem;
+      width:  5rem;
+    }
+
+     .lr-image:hover .lr-play{
+      margin-top: -1rem;
+      margin-left: -9rem;
+    }
+
+
+    #similar-artist .view-all{
+      position: absolute;
+      left: 18rem;
+    }
+
+    #recently-played .view-all{
+      position: absolute;
+      left: 11rem;
+      margin: 0;
+      }
+ #audio-img img{
+      padding-top: 1rem;
+      height: 3rem;
+      width: 3rem;
+      padding-left: 1rem;
+   }
+
+    .song-status{
+      width: 12rem;
+    }
+
+    .sound-status{
+      width: 5rem;
+    }
+
+    #audio-widget-time{
+      margin: 0;
+      margin-left: 5rem;
+    }
+
+    #audio-icons-sound{
+      display: none;
+    }
+    
+    #audio-img img{
+      margin: 0;
+      height: 5rem;
+      width: 5rem;
+      display: inline-block;
+    }
+
+  #audio-img-name-author{
+     width: 35%;
+   }
+
+   #audio-name-author{
+      font-size: 1rem;
+   }
+}
+
+@media only screen and (max-width: 700px){
+
+  .logo{
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-top: -1rem;
+}
+
+#logo-first-name{
+  font-weight: 0;
+  padding-left: 0;
+  margin-top: -1rem;
+}
+
+#logo-last-name{
+  left: 1rem;
+  font-weight: 0;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  margin-top: -1rem;
+}
+
+.favo {
+  left: 7rem;
+  top: 2rem;
+  margin:-1rem 4rem 4rem 4rem;
+  }
+
+#search-bar{
+  width: 13rem;
+  left:20.4rem;
+  top: 2rem;
+  }
+
+#bell-icon{
+  margin-top: -0.3rem;
+  left: 35rem;
+  top: 2.8rem;
+  }
+
+#profile-pic{
+     height: 3rem;
+      width: 3rem;
+      left: 38rem;
+      top: 1.5rem;
+  }
+ 
+ .ip-header-img{
+    margin: 0 8rem;
+ }
+
+
+ #ip-header-conent{
+  margin-top: -6rem;
+   margin-left: 1rem;
+  }
+
+.ip-song-container{
+ margin-top:15rem;
+}
+
+.button-container{
+     left: 1rem;
+     top: 24rem;
+     height: 1.6rem;
+     width: 6.5rem;
+  }
+
+  .ip-count{
+    position: absolute;
+    left: 10rem;
+    top: 26.5rem;
+    margin: 0;
+  }
+
+  #follow{
+    left: 16rem;
+    top: 27rem;
+  }
+
+ .ip-close{
+  left: 22.5rem;
+  top: 27rem;
+ }
+
+ #similar-artist{
+      left: 28rem;
+      top: 8rem;
+    }
+
+#recently-played{
+      left: 28rem;
+      margin-top: -2rem;
+    }
+  #similar-artist .view-all{
+    display: block;
+      position: absolute;
+      top: 2rem;
+      left: 6.7rem;
+    }
+
+    #recently-played .view-all{
+      display:block;
+      top: 2rem;
+      left: 0;
+      }
+
+.latest-release-name{
+  margin-top: -1rem;
+  font-size: 0.9rem;
+}
+
+.lr-widget-time-container{
+  display: none;
+}
+
+#recently-played .playlist-box-img img{
+      height: 3rem;
+      width: 3rem;
+}
+
+#recently-played .playlist-content-align{
+  margin-left: 0;
+  font-size: 0.7rem;
+}
+
+#playlist-header h3{
+  font-size: 1rem;
+}
+
+.ip-song-container .playlist-content-align{
+  font-size: 1rem;
+  width: inherit;
+}
+
+.ip-song-container .playlist-heart{
+  position: absolute;
+  left: 1rem;
+}
+
+.playlist-box-1{
+      margin-top: 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 550px){
+  .logo{
+  margin-left: -2rem;
+}
+
+#logo-first-name{
+  margin-left: -1rem;
+}
+
+#logo-last-name{
+  margin-left: -1rem;
+}
+
+.favo {
+  left: 17rem;
+  top: 2rem;
+  }
+
+#search-bar{
+  left:7rem;
+  top: 1.5rem;
+  }
+
+#bell-icon{
+  left: 28rem;
+  top: 2.6rem;
+  }
+
+ #profile-pic{
+      height: 3rem;
+      width: 3rem;
+      left: 30.5rem;
+      top: 1rem;
+    }
+
+ .ip-header-img{
+    margin: 1rem;
+    margin-bottom: -1rem;
+ }
+
+.ip-header-img img{
+  height: 10rem;
+  width: 10rem;
+}
+
+ #ip-header-conent{
+  margin-top: -14rem;
+   margin-left: -1rem;
+ }
+  
+#ip-header-conent p{
+  font-size: 0.8rem;
+}
+
+.ip-header-desc{
+  width: 16rem;
+}
+
+#followers{
+  margin-left: -9rem;
+}
+
+.button-container{
+     left: -2rem;
+     top: 20rem;
+     height: 1.6rem;
+     width: 6.5rem;
+  }
+
+  .ip-count{
+    position: absolute;
+    left: 0;
+    top: 24.5rem;
+    margin: 0;
+  }
+
+  #follow{
+    left: 4rem;
+    top: 23.2rem;
+  }
+
+ .ip-close{
+  left: 13rem;
+  top: 23.5rem;
+ }
+
+ .ip-song-container .playlist-box-img img{
+      height: 3rem;
+      width: 3rem;
+      margin-left: -2rem;
+  }
+
+ .ip-song-container .playlist-content-align{
+  font-size: 0.7rem;
+ }
+
+ .ip-song-container .playlist-heart{
+  left: -9rem;
+ }
+
+ #individual-playlist .playlist-box{
+   width: 43vw;
+ }
+
+ #similar-artist{
+      left: 20rem;
+      top: 8rem;
+    }
+
+#recently-played{
+      left: 20rem;
+      margin-top: -2rem;
+    }
+  #similar-artist .view-all{
+    display: block;
+      position: absolute;
+      top: 2rem;
+      left: 6.7rem;
+    }
+
+    #recently-played .view-all{
+      display:block;
+      top: 4rem;
+      left: 0;
+      }
+
+.latest-release-name{
+  margin-top: -1rem;
+  font-size: 0.9rem;
+}
+
+.latest-release-container{
+       height: 30%;
+       width: 30%;
+       display:  flex;
+       align-items: center;
+    }
+
+   .lr-image img{
+      height: 4rem;
+      width: 4rem;
+    }
+
+.latest-release-name-content{
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+.similar-artist-title-container{
+  width: 13rem;
+}
+
+#similar-artist{
+  width: 39vw;
+}
+
+ .lr-image:hover .lr-play{
+      margin-top: -1.4rem;
+      margin-left: -8.3rem;
+}
+
+#recently-played{
+  width: 39vw;
+}
+
+#recently-played .view-all{
+   display:block;
+   top: 2rem; 
+   left: -0.3rem;
+}
+ #audio-widget-time{
+      margin-left: 3rem;
+    }
+    
+    #audio-img img{
+      height: 4rem;
+      width: 3rem;
+    }
+
+  #audio-img-name-author{
+     width: 33%;
+   }
+
+   #audio-name-author{
+      font-size: 0.9rem;
+   }
+  .audio-widget-pad{
+      margin: 0.3rem;
+      padding: 0 0.5rem;
+    }    
+}

@@ -1,0 +1,1079 @@
+@media only screen and (max-width: 1200px){
+
+/*media queries for header*/
+
+#logo-container{
+   left: 6rem;
+}
+
+.favo {
+   left: 13rem;
+   }
+
+#search-bar{
+  left:42rem;
+ }
+
+#bell-icon{
+  left: 56rem;
+ }
+   
+ #profile-pic{
+  left: 60rem;
+  }
+
+/*media queries for trending covers*/
+
+.trend-align{
+  margin-left: 4rem;
+ }
+
+.trend-cover img{
+  height: 12rem;
+  width: 12rem;
+ }
+
+.trend-cover img:hover{
+  width: 15rem;
+  height: 15rem;
+}
+
+/*media queries for playlist:aside*/
+
+#my-playlist-queue{
+  margin-left: 2rem;
+}
+
+#playlist-title-queue{
+  width: 30%;
+  height: 10%;
+}
+
+#playlist-header div h5{
+  margin-left: 4rem;
+  margin-top: -5rem;
+}
+
+#playlist-header div h3{
+      margin-top: 2rem;
+      margin-right: 2rem;
+    }
+
+#queue-icon{
+       margin-top: 2.5rem;
+       margin-left: -6.2rem;
+    }
+
+.playlist-box-1{
+      margin-top: 4rem;
+    }
+
+.playlist-box-img img{
+      height: 3rem;
+      width: 3rem;
+    }
+
+.playlist-heart{
+      margin-left: 2rem;
+    }
+
+/*media queries for latest-release*/
+
+ .section-title{
+      margin:1rem 6rem 1rem 5rem;
+    }
+
+    .lr-align{
+      width: 58vw;
+      height: 48vh;
+      margin: 1rem 1rem 1.8rem 4.5rem;
+    }
+
+    .latest-release-container{
+       height: 35%;
+       width: 45%;
+    }
+
+    .lr-image img{
+      height: 5rem;
+      width: 5rem;
+    }
+
+    .latest-release-content{
+      margin-top: -1rem;
+    }
+
+    .lr-play  i{
+      margin-left: 7rem;
+      margin-top: 2rem;
+    }
+
+   .latest-release-name{
+    margin-top: -1.4rem;
+    font-weight: 0;
+    font-size: 0.5;
+   }
+
+   .lr-widget-time-container{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    }
+
+/*media queries for popular arrtist*/
+
+    #popular-artist-container{
+    width: 58vw;
+    height: 27vh;
+    margin-left:4rem;
+    margin-top: 1rem;
+   }
+   
+   .popular-artist-pic{
+    height: 6rem;
+    width: 6rem;
+   }
+
+    .pa-play  i{
+      margin-left: 6.5rem;
+      margin-top: 2.6rem;
+    }
+
+    #justin{
+    margin: -1rem 1rem 5rem 1.3rem;
+    }
+
+    #drake{
+    margin: -1rem 1rem 5rem 1.6rem;
+    }
+
+    #ed{
+    margin: -1rem 1rem 5rem 1.5rem;
+    }
+
+    #cold-play{
+    margin: -1rem 1rem 5rem 2rem;
+    }
+
+    #zyan{
+    margin: -1rem 1rem 5rem 1.7rem;
+    }
+
+    #bruno{
+    margin: -1rem 1rem 5rem 1.6rem;
+    }
+
+/*media queries for song gener*/
+
+ #song-gener-container{
+    width: 58vw;
+    height: 23vh;
+    margin-left:4.2rem;
+   }
+
+   .song-gener-pic{
+    height: 5.5rem;
+    width: 5.5rem;
+   }
+
+   .song-gener-pic-title{
+    margin-left: -5.2rem;
+    margin-top:2.2rem;
+    width: inherit;
+  } 
+
+/*media queries for song style*/
+
+#song-style-container{
+    width: 58vw;
+    height: 27vh;
+    margin-left:4rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.8rem;
+    align-items: center;
+   }
+
+   .song-style-pic-container div{
+    height: 7.5rem;
+    width: 12.6rem;
+    }
+
+   .song-style-pic-title{
+    margin-left: -9.5rem;
+    margin-top:3.5rem;
+   }
+
+/*media queries for latest-tamil and english*/
+
+   .latest--container{
+    width: 58vw;
+    height: 30vh;
+    margin-left:4.2rem;
+   }
+
+   .latest--pic{
+    height: 5.5rem;
+    width: 5.5rem;
+   }
+/*media queries for  bottom music player(audio)*/
+
+   #audio-img img{
+      padding-top: 1rem;
+      height: 4rem;
+      width: 4rem;
+      padding-left: 1rem;
+   }
+
+   #audio-name-author{
+      font-size: 1rem;
+      font-weight: 0;
+   }
+
+    .song-status{
+      width: 25rem;
+    }
+
+    .sound-status{
+      width: 7rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 1037px){
+
+/*media queries for header*/
+
+#search-bar{
+  left:38rem;
+ }
+
+#bell-icon{
+  left: 52rem;
+ }
+   
+ #profile-pic{
+  left: 56rem;
+  }
+
+/*media queries for trending covers*/
+
+.trend-cover img{
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: -3rem;
+  margin-top: -9rem;
+  margin-bottom: -5rem;
+ }
+
+.trend-cover img:hover{
+  width: 13rem;
+  height: 13rem;
+}
+
+/*media queries for playlist:aside*/
+
+#playlist-header div h5{
+  margin-left: 5rem;
+}
+
+#queue-icon{
+       margin-left: -3.6rem;
+    }
+
+
+/*media queries for latest-release*/
+
+ .section-title{
+      margin:1rem 6rem 1rem 6rem;
+      font-weight: 0;
+    }
+
+    .lr-align{
+      margin: 1rem 1rem 1.8rem 5.5rem;
+    }
+
+/*media queries forr popular arrtist*/
+
+    #popular-artist-container{
+    margin-left:4rem;
+    margin-top: 1rem;
+   }
+   
+   .popular-artist-pic{
+    height: 5rem;
+    width: 5rem;
+   }
+
+    .pa-play  i{
+      margin-left: 7.2rem;
+      margin-top: 2.2rem;
+    }
+
+    #justin{
+    margin: -1rem 1rem 5rem 1.3rem;
+    }
+
+    #drake{
+    margin: -1rem 1rem 5rem 1.3rem;
+    }
+
+    #ed{
+    margin: -1rem 1rem 5rem 1.2rem;
+    }
+
+    #cold-play{
+    margin: -1rem 1rem 5rem 1.7rem;
+    }
+
+    #zyan{
+    margin: -1rem 1rem 5rem 1.4rem;
+    }
+
+    #bruno{
+    margin: -1rem 1rem 5rem 1.6rem;
+    }
+
+/*media queries for song gener*/
+
+ #song-gener-container{
+    width: 56vw;
+    height: 21vh;
+    margin-left:4.4rem;
+   }
+
+   .song-gener-pic{
+    height: 4.5rem;
+    width: 4.5rem;
+   }
+
+   .song-gener-pic-title{
+    margin-left: -4.5rem;
+    margin-top:1.8rem;
+    width: inherit;
+  } 
+
+/*media queries for song style*/
+
+#song-style-container{
+    width: 48vw;
+    margin-left:7rem;
+   }
+
+   .song-style-pic-container div{
+    height: 7.5rem;
+    width: 12.6rem;
+    }
+
+   .song-style-pic-title{
+    margin-left: -9.5rem;
+    margin-top:3.5rem;
+   }
+
+/*media queries for latest-tamil and english*/
+
+   .latest--container{
+    width: 55vw;
+    height: 30vh;
+    margin-left:5rem;
+   }
+
+   .latest--pic{
+    height: 5rem;
+    width: 5rem;
+   }
+
+   .latest--dty{
+    font-size: 0.5rem;
+   }
+
+/*media queries for  bottom music player(audio)*/
+
+   #audio-name-author{
+      font-size: 0.8rem;
+      font-weight: 0;
+   }
+
+     #audio-heart-ban{
+      margin-top: 1.2rem;
+      margin-left: 0.5rem;
+   }
+
+}
+
+@media only screen and (max-width: 900px){
+
+/*media queries for header*/
+
+#logo-container{
+   left: 2rem;
+}
+
+.favo {
+   left: 9rem;
+   }
+
+#search-bar{
+  left:30rem;
+ }
+
+#bell-icon{
+  left: 44rem;
+ }
+   
+ #profile-pic{
+  left: 48rem;
+  }
+
+/*media queries for trending covers*/
+
+.trend-align{
+  margin-left: 1rem;
+  margin-top: -3rem;
+ }
+
+.trend-cover img{
+  height: 9rem;
+  width: 9rem;
+ }
+
+.trend-cover img:hover{
+  width: 12rem;
+  height: 12rem;
+}
+
+/*media queries for playlist:aside*/
+
+#my-playlist-queue{
+  margin-left: 0.2rem;
+    margin-top: -0.3rem;
+}
+
+#playlist-header div h5{
+  margin-left: 3rem;
+}
+
+#queue-icon{
+       margin-top: 2.5rem;
+       margin-left: -3.9rem;
+       padding-left: 1rem;
+    }
+
+.playlist-box-1{
+      margin-top: 4rem;
+    }
+
+.playlist-box-img img{
+      height: 3rem;
+      width: 3rem;
+    }
+
+/*media queries for latest-release*/
+
+ .section-title{
+      margin:1rem 6rem 1rem 2rem;
+    }
+
+    .lr-align{
+      margin: 1rem 1rem 1.8rem 1.5rem;
+    }
+
+   .lr-widget-time-container{
+    margin-top: 1rem;
+    margin-left: -2rem;
+    }
+
+/*media queries for popular artist*/
+
+    #popular-artist-container{
+    width: 50vw;
+    height: 27vh;
+    margin-left:4rem;
+    margin-top: 1rem;
+   }
+   
+   .popular-artist-pic{
+    height: 4.5rem;
+    width: 4.5rem;
+    margin: 0.5rem;
+   }
+
+/*media queries for song gener*/
+
+ #song-gener-container{
+    width: 56vw;
+    height: 23vh;
+    margin-left:2rem;
+   }
+
+   .song-gener-pic{
+    height: 4.5rem;
+    width: 4.5rem;
+    margin:0 0.5rem;
+   }
+
+   .song-gener-pic-title{
+    margin-left: -3.2rem;
+    margin-top:1.5rem;
+    width: inherit;
+    background-color: transparent;
+    color: black;
+  } 
+
+/*media queries for song style*/
+
+#song-style-container{
+    width: 50vw;
+    margin-left:4rem;
+   }
+
+   .song-style-pic-container div{
+    height: 5.5rem;
+    width: 10.6rem;
+    }
+
+   .song-style-pic-title{
+    margin-left: -7rem;
+    margin-top:2.3rem;
+    font-size: 0.8rem;
+   }
+
+/*media queries for latest-tamil and english*/
+
+   .latest--container{
+    width: 55vw;
+    height: 30vh;
+    margin-left:3.6rem;
+   }
+
+   .latest--pic{
+    height: 5.5rem;
+    width: 5.5rem;
+   }
+/*media queries for  bottom music player(audio)*/
+
+   #audio-img img{
+      padding-top: 1rem;
+      height: 3rem;
+      width: 3rem;
+      padding-left: 1rem;
+   }
+
+    .song-status{
+      width: 12rem;
+    }
+
+    .sound-status{
+      width: 5rem;
+    }
+}
+
+
+/* in the screens of this width, generally volume buttons are provided at the side. */
+  /* so there is no need for the volume slider at this width. so i have removed them from the display */
+
+@media only screen and (max-width: 700px){
+
+ .logo{
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-top: -1rem;
+}
+
+#logo-first-name{
+  font-weight: 0;
+  padding-left: 0;
+  margin-top: -1rem;
+}
+
+#logo-last-name{
+  left: 1rem;
+  font-weight: 0;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  margin-top: -1rem;
+}
+
+.favo {
+  left: 7rem;
+  top: 2rem;
+  margin:-1rem 4rem 4rem 4rem;
+  }
+
+#search-bar{
+  width: 13rem;
+  left:20.4rem;
+  top: 2rem;
+  }
+
+#bell-icon{
+  margin-top: -0.3rem;
+  left: 35rem;
+  top: 2.8rem;
+  }
+
+#profile-pic{
+     height: 3rem;
+      width: 3rem;
+      left: 38rem;
+      top: 1.5rem;
+  }
+
+ .section-title{
+      margin:0 6rem 1rem 2rem;
+    }
+
+.trend-align{
+  margin-left: 1rem;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+ }
+
+.trend-cover img{
+  height: 7rem;
+  width: 7rem;
+ }
+
+.trend-cover img:hover{
+  height: 10rem;
+  width: 10rem;
+  box-shadow: 5px 5px 2px 2px purple;
+}
+
+.lr-align{
+  margin: 1rem 1rem 1.8rem 1.5rem;
+}
+
+.lr-widget-time-container{
+  margin-top: 1rem;
+  margin-left: -3rem;
+}
+
+ .lr-image img{
+  height: 4rem;
+  width: 4rem;
+}
+
+.latest-release-name{
+    font-weight: 3rem;
+    font-size: 0.9rem;
+ }
+
+.latest-release-content{
+  font-size: 0.5rem;
+  margin: 0.3rem;
+}
+
+ .lr-widget-time{
+  font-size: 0.8rem;
+ }
+
+.lr-widget-time-container{
+  margin-top: 1rem;
+  margin-left: 0;
+  padding-left: 0; 
+}
+
+.lr-image:hover .lr-play{
+  margin-left: -9.5rem;
+  margin-top: -0.7rem;
+}
+
+  #popular-artist-container{
+    flex-wrap: wrap;
+    margin-left: 3rem;
+  }
+
+  .popular-artist-pic{
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .pa-image:hover .pa-play{
+    margin-left: -10.5rem;
+    margin-top: 0;
+  }
+
+  #justin{
+    margin: -1rem 1rem 5rem 1rem;
+    }
+
+    #drake{
+    margin: -1rem 1rem 5rem 1rem;
+    }
+
+    #cold-play{
+    margin: -1rem 1rem 5rem 1.4rem;
+    }
+
+    #zyan{
+    margin: -1rem 1rem 5rem 1.4rem;
+    }
+
+    #bruno{
+    margin: -1rem 1rem 5rem 1.3rem;
+    }
+
+  #song-gener-container{
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .song-gener-pic-title{
+    color: white;
+  }
+
+   #song-gener-pic0{
+    height: 7rem;
+    width: 20rem;
+    margin-bottom: 1rem;
+   }
+
+   .song-style-pic-title{
+    margin-left: -13rem;
+    margin-top:2.8rem;
+    font-size: 1.5rem;
+   }
+
+   #song-style-container{
+    display: block;
+    width: 24.4rem;
+    margin-left: 2rem;
+    height: auto;
+    background: linear-gradient(mediumpurple,purple,transparent);
+   }
+  
+   .song-style-pic-container div{
+    margin: 2rem;
+    height: 6.5rem;
+    width: 20rem;
+   }
+
+   .latest--container{
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+    margin-left: 2rem;
+   }
+
+   .latest--pic{
+    height: 6.5rem;
+    width: 6.5rem;
+   }
+
+   #latest-english{
+    margin-bottom: 7rem;
+   }
+
+
+    #my-playlist-queue{
+      width: 30vw;
+      height: 100vh;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 1rem;
+      margin-top: 2.2rem;
+    }
+
+     #playlist-header div h5{
+      padding-left: 6rem;
+      margin-top: -1.5rem;
+     }
+
+    #playlist-header div h3{
+      margin: 0;
+      margin-top: -0.5rem;
+      font-size: 2rem; 
+    }
+
+    #queue-icon{
+      margin: 0;
+      margin-top: 2rem;
+      margin-left: -2rem;
+    }
+
+    .playlist-box-1{
+      margin-top: 4rem;
+      font-size: 0.7rem;
+    }
+
+    .playlist-box{
+      font-size: 0.7rem;
+    }
+
+    .playlist-box-img img{
+      height: 2.5rem;
+      width: 2.5rem;
+      box-shadow: 0 0 50px mediumpurple,
+      0 0 100px mediumpurple,
+      0 0 150px mediumpurple,
+      0 0 200px mediumpurple;
+    }
+
+    .playlist-content-align{
+      margin: 0.2rem;
+    }
+
+    .playlist-heart{
+      margin-left: 1rem;
+    }
+
+    #audio-widget-time{
+      margin: 0;
+      margin-left: 5rem;
+    }
+
+    #audio-icons-sound{
+      display: none;
+    }
+    
+    #audio-img img{
+      margin: 0;
+      height: 5rem;
+      width: 5rem;
+      display: inline-block;
+    }
+
+  #audio-img-name-author{
+     width: 35%;
+   }
+
+   #audio-name-author{
+      font-size: 1rem;
+   }
+}
+
+@media only screen and (max-width: 550px){
+::-webkit-scrollbar{
+  width: 7px;
+}
+
+.logo{
+  margin-left: -2rem;
+}
+
+#logo-first-name{
+  margin-left: -1rem;
+}
+
+#logo-last-name{
+  margin-left: -1rem;
+}
+
+.favo {
+  left: 17rem;
+  top: 2rem;
+  }
+
+#search-bar{
+  left:7rem;
+  top: 1.5rem;
+  }
+
+#bell-icon{
+  left: 28rem;
+  top: 2.6rem;
+  }
+
+ #profile-pic{
+      height: 3rem;
+      width: 3rem;
+      left: 30.5rem;
+      top: 1rem;
+    }
+
+.trend-align{
+  margin-left: 6rem;
+  margin-top: 4rem;
+  margin-bottom: -3rem;
+  margin-top: -3rem;
+ }
+
+.trend-cover img{
+  height: 8rem;
+  width: 8rem;
+  margin: 0.5rem;
+ }
+
+.trend-cover img:hover{
+  height: 11rem;
+  width: 11em;
+  box-shadow: 5px 5px 2px 2px purple;
+}
+
+#my-playlist-queue{
+  display: block;
+  margin-top: 15rem;
+  margin-left: -2rem;
+}
+
+.lr-align{
+  margin: 1rem 0 12.8rem 0.5rem;
+}
+
+.latest-release-container{
+  height: 40%;
+  width: 80%;
+}
+
+.lr-widget-time-container{
+  margin-top: 1rem;
+  margin-left: -3rem;
+}
+
+ .lr-image img{
+  height: 5rem;
+  width: 5rem;
+  margin: 1rem;
+}
+
+.latest-release-name{
+    font-weight: 3rem;
+    font-size: 0.9rem;
+ }
+
+.latest-release-content{
+  font-size: 0.8rem;
+  margin: 0.3rem;
+}
+
+ .lr-widget-time{
+  font-size: 0.8rem;
+ }
+
+.lr-widget-time-container{
+  margin-top: 1rem;
+  margin-left: 0;
+  padding-left: 0; 
+}
+
+.lr-image:hover .lr-play{
+  margin-left: -11rem;
+  margin-top: 1rem;
+}
+
+ #popular-artist-container{
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-bottom: 18rem;
+    width: 60vw;
+  }
+
+  .popular-artist-pic{
+    height: 6rem;
+    width: 6rem;
+    margin-bottom: 3rem;
+  }
+
+  .pa-image:hover .pa-play{
+    margin-left: -10.5rem;
+    margin-top: 0;
+  }
+
+  #justin{
+    margin: -1rem 1rem 5rem 1.5rem;
+    }
+
+    #drake{
+    margin: -1rem 1rem 5rem 1.5rem;
+    }
+
+    #cold-play{
+    margin: -1rem 1rem 5rem 1.9rem;
+    }
+
+    #zyan{
+    margin: -1rem 1rem 5rem 1.9rem;
+    }
+
+    #bruno{
+    margin: -1rem 1rem 5rem 1.8rem;
+    }
+
+#song-gener-container{
+    margin-top: 8rem;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+#song-gener-pic0{
+    height: 7rem;
+    width: 17rem;
+    margin-bottom: 1rem;
+  }
+   .song-gener-pic{
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+   }
+
+   #song-style-container{
+    display: block;
+    width: 19rem;
+    margin-left: 2rem;
+   }
+
+   .song-style-pic-container div{
+    margin: 2rem;
+    height: 6.5rem;
+    width: 14rem;
+   }
+
+   .song-style-pic-title{
+    margin-left: -10rem;
+    margin-top:2.8rem;
+    font-size: 1.5rem;
+   }
+
+    .latest--container{
+    flex-wrap: wrap;
+    margin: 2rem 4rem;
+    margin-left: 1rem;
+    width: 60vw;
+   }
+
+   .latest--pic{
+    height: 6.5rem;
+    width: 6.5rem;
+   }
+
+   #latest-english{
+    margin-bottom: 7rem;
+   }
+
+    #playlist-header div h5{
+      padding-left: 5rem;
+      margin-top: -1.5rem;
+     }
+ #queue-icon{
+      margin: 0;
+      margin-top: 2rem;
+      margin-left: -1rem;
+    }
+ .queue-dropdown{
+      margin-left: -8.4rem;
+    }
+
+ #audio-widget-time{
+      margin-left: 3rem;
+    }
+    
+    #audio-img img{
+      height: 4rem;
+      width: 3rem;
+    }
+
+  #audio-img-name-author{
+     width: 33%;
+   }
+
+   #audio-name-author{
+      font-size: 0.9rem;
+   }
+  .audio-widget-pad{
+      margin: 0.3rem;
+      padding: 0 0.5rem;
+    }    
+}

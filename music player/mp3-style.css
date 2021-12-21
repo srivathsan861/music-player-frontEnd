@@ -1,0 +1,936 @@
+/*general*/
+
+body{
+	background-color:black;   /* #2b2b7d */
+  margin: 0;
+  padding: 0;
+}
+
+aside{
+  position: fixed;
+  left: 65vw;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(purple,pink);
+  border-radius: 10px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/*header*/
+
+#header{
+	height: 15vh;
+}
+
+#header-container{
+   z-index: 1;
+   position: fixed;
+   background-attachment: fixed;
+   height: inherit;
+   width: 100%;
+   background-color: black;
+}
+
+#logo-container{
+	 display: inline-block;
+   position: absolute;
+   left: 4rem;
+	 top: 2.2rem;
+}
+
+.logo{
+	position: absolute;
+	border-radius: 50;
+	height: 3.2rem;
+	width: 3.2rem;
+  margin-left: -1rem;
+}
+
+#logo-first-name{
+	position: absolute;
+	display: inline-block;
+	height: 1.8rem;
+	width: 2.7rem;
+	left: 2rem;
+  color: mediumpurple;
+  font-family: cursive;
+  font-weight: 1rem;
+  padding-left: 1rem;
+}
+
+#logo-last-name{
+	position: absolute;
+	display: inline-block;
+	height: 1.8rem;
+	width: 2.7rem;
+	left: 2rem;
+	top: 1rem;
+  color: white;
+  font-family: fantasy;
+  font-weight: 1rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.favo {
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	top: 2rem;
+  margin:0 4rem 4rem 4rem;
+  color: mediumpurple;
+  font-family: serif;
+  font-family: monospace;
+  font-weight: 2rem;
+  font-size: 1rem;
+	}
+
+#search-bar{
+	position: absolute;
+  display: inline-block;
+  height: 2rem;
+	width: 13rem;
+  border: 1px solid white;
+  left:55.4rem;
+  top: 3rem;
+  background-color: white;
+  border-radius: 20%;
+	}
+
+#search-icon {
+	padding-top: 0.4rem;
+	padding-left: 0.2rem;
+	display: inline-block;
+	height: inherit;
+	width: 10%;
+	}
+
+#search-icon a{
+  color: black;
+  }
+    
+
+#search {
+  padding-top: 0.4rem;
+  padding-left: 0.6rem;
+  left: 1rem;
+  position: absolute;
+  height:inherit;
+  width: inherit;
+  display: inline-block;
+  border-style: none; 
+  opacity: 0.5;
+  }
+
+#search input{
+ 	border: 0px solid;
+  }
+
+    #mic-icon{
+    padding-top: 0.4rem;
+		padding-left: 9.8rem;
+		display: inline-block;
+		height: inherit;
+		width: 10%;
+    }
+
+    #mic-icon a{
+    color: black;
+    }
+
+    #bell-icon{
+		display: inline-block;	
+		position: absolute;
+    margin-top: -0.3rem;
+		left: 70rem;
+		top: 3.8rem;
+    }
+
+    #bell-icon::after{
+      content: '';
+      background-color: white;
+      height:0.3rem;
+      width: 0.3rem;
+      border-radius: 100%;
+      display: inline-block;
+      margin-left: -0.4rem;
+      position: absolute;
+    }
+
+    #bell-icon a{
+      color: purple;
+    }
+   
+    #profile-pic{
+    	position: absolute;
+    	display: inline-block;
+    	height: 4rem;
+    	width: 4rem;
+    	border-radius: 100%;
+    	background-image: url(images/profile-pic.png);
+    	left: 76rem;
+    	top: 2rem;
+      background-size: contain;
+    }
+
+    /*trending cover*/
+
+    #trending-cover{
+      display: inline-block;
+    }
+
+    #trending-cover-container{
+    	display: flex;
+    	justify-content: flex-start;
+    }
+   
+    .trend-align{
+    	width: 62vw;
+    	height: 45vh;
+    	display: flex;
+    	justify-content: space-evenly;
+    	align-items: center;
+    	margin-left: 3rem;
+    	margin-top: 2.7rem;
+    	margin-right: 1rem;
+    	margin-bottom: 1.8rem;
+    }
+
+    .trend-cover img{
+    	height: 15rem;
+    	width: 15rem;
+    }
+
+    .trend-cover img:hover{
+    	width: 18rem;
+    	height: 18rem;
+      box-shadow: 10px 10px 2px 2px purple;
+     }
+   
+
+    /*aside : my playlist*/
+
+    #my-playlist-queue{
+      width: 30vw;
+      height: 100vh;
+      display: inline-block;
+      align-items: center;
+      margin-right: 3rem;
+      margin-left: 1rem;
+      margin-bottom: 1.8rem;
+      margin-top: 2.7rem;
+      vertical-align: top;
+      overflow: hidden;
+      overflow-y: scroll;
+    }
+
+   #playlist-header div{
+      display: inline-block;
+    }
+
+    #playlist-header div h5{
+      margin-left: 8rem;
+    }
+    #playlist-header div h3{
+      margin-right: 8rem;
+    }
+
+    #playlist-title-queue{
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      background-color: black;
+    }
+
+    #playlist-title-queue h3{
+      color: white;
+    }
+
+     #playlist-title-queue h5{
+      color: mediumpurple;
+    }
+
+    #queue-icon{
+       margin-top: 1.5rem;
+    }
+
+    #queue-icon a{
+      color: mediumpurple;
+    }
+
+    .ul-pl-dropdown li a{
+      color: black !important;
+    }
+
+    .queue-dropdown{
+      display: none;
+      background: whitesmoke;
+      height: auto;
+      width: auto;
+      margin-left: -7.4rem;
+    }
+    
+      .ul-pl-dropdown{
+      margin: 0;
+      padding: 0.3rem;
+      line-height: 2rem;
+      }
+
+      .pl-dropdown-opt{
+      margin-left: 1rem;
+      }
+
+      .queue-dropdown ul li{
+      list-style: none;
+      }
+
+   .queue-dropdown ul li:nth-child(1){
+    border-bottom: 1px solid black;
+    }
+
+   .queue-dropdown ul li a{
+      text-decoration: none;
+    }
+
+    #queue-icon:hover  .queue-dropdown{
+      display: flex;
+      position: absolute;
+    }
+
+    .playlist-box{
+      height: 7rem;
+      width: inherit;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 0.5rem;
+      overflow: hidden;
+      color: white;
+      }
+    .playlist-box-1{
+      margin-top: 4rem;
+    }
+
+    .playlist-box-img img{
+      height: 5rem;
+      width: 5rem;
+      box-shadow: 0 0 50px black,
+      0 0 100px black,
+      0 0 150px black,
+      0 0 200px black;
+    }
+
+    .playlist-box-img img:hover{
+      box-shadow: 0 0 50px mediumpurple,
+      0 0 100px mediumpurple,
+      0 0 150px mediumpurple,
+      0 0 200px mediumpurple;
+    }
+
+    .playlist-content-align{
+      margin: 0.5rem;
+    }
+
+    .playlist-heart{
+      margin-left: 5rem;
+    }
+
+    #my-playlist-queue::-webkit-scrollbar {
+     display: none;
+     }
+
+
+    /*latest release*/
+
+    .section-title{
+      margin:1rem 6rem 1rem 4rem;
+      color: white;
+      font-family: sans-serif;
+      font-weight: 5rem;
+    }
+
+
+    .lr-align{
+      width: 62vw;
+    	height: 50vh;
+    	display: flex;
+    	justify-content: space-around;
+    	align-items: center;
+      margin: 1rem 1rem 1.8rem 3rem;
+    	flex-wrap: wrap;
+    }
+
+    .latest-release-container{
+    	 height: 40%;
+    	 width: 45%;
+    	 display:  flex;
+       align-items: center;
+    }
+
+    .lr-image img{
+    	height: 7rem;
+    	width: 7rem;
+    }
+
+    .lr-play{
+      display: none;
+    }
+
+    .lr-play  i{
+      margin-left: 6rem;
+      margin-top: 3rem;
+    }
+
+    .lr-play a{
+      color: white;
+    }
+
+    .lr-image:hover{
+      opacity: 0.8;
+    }
+
+    .lr-image:hover .lr-play{
+      display: inline-block;
+      margin-left: -10rem;
+      position: absolute; 
+    }
+
+   .latest-release-name-content{
+   	display: block;
+   	margin: 1rem;
+   }
+
+   .latest-release-name{
+    font-family: serif;
+    font-weight: 3rem;
+    font-size: 1.2rem;
+    color: white;
+   }
+
+   .latest-release-content{
+    color: mediumpurple;
+    font-family: monospace;
+   }
+   
+   .lr-widget-time{
+   	display: block;
+    color: white;
+   }
+
+   .lr-widget-time-container{
+   	display: inline-block;
+   	margin-top: 1rem;
+   	margin-left: 2rem;
+    padding-left: 2rem;
+   }
+
+   .latest-release-dropdown{
+      display: none;
+      background: purple;
+      height: auto;
+      width: auto;
+      margin-left: -9rem;
+   }
+
+   .latest-release-dropdown ul li{
+      list-style: none;
+      border-bottom: 1px solid black;
+      color: black;
+    }
+
+   .latest-release-dropdown ul li a{
+      text-decoration: none;
+   }
+
+   #lr-widget a{
+      color: white;
+   }
+
+   #lr-widget:hover  .latest-release-dropdown{
+      display: flex;
+      position: absolute;
+   }
+
+   #lr-widget:hover a{
+    color: mediumpurple;
+   }
+
+   .ul-lr-dropdown{
+      margin: 0;
+      padding: 0.3rem;
+      line-height: 2rem;
+    }
+
+
+   .ul-lr-dropdown li a{
+    color: black !important;
+   }
+
+   .lr-dropdown-opt{
+      margin-left: 1rem;
+   }
+
+
+   .latest-release-dropdown ul li:last-child{
+      border: none;
+   }
+
+   #audio:target{
+      display: block;
+   }
+
+   /*popular artist*/
+
+   #popular-artist-container{
+   	display: flex;
+   	justify-content: space-evenly;
+   	width: 62vw;
+   	height: 29vh;
+   	margin-left:3rem;
+   	margin-top: 2rem;
+    margin-right: 1rem;
+  	margin-bottom: 1.8rem;
+   	align-items: center;
+   }
+   
+   .popular-artist-pic{
+   	height: 8rem;
+   	width: 8rem;
+   	border-radius: 50%;
+   }
+
+   .pa-image{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+   }
+
+   .pa-image:hover{
+     opacity: 0.5;
+   }
+
+    .pa-play{
+      display: none;
+    }
+
+    .pa-play  i{
+      margin-left: 5.6rem;
+      margin-top: 3.2rem;
+      color: white;
+    }
+
+   .pa-image:hover .pa-play{
+     display: inline-block;
+     margin-left: -10rem;
+     position: absolute;
+    }
+
+   .popular-artist-pic a img{
+   	height: 100%;
+    width: 100%;
+   	border-radius: 100%;
+   }
+
+   .popular-artist-name{
+    color: white;
+    }
+
+    #justin{
+    margin: -1rem 1rem 5rem 1rem;
+    }
+
+    #drake{
+    margin: -1rem 1rem 5rem 2.5rem;
+    }
+
+    #ed{
+    margin: -1rem 1rem 5rem 1.5rem;
+    }
+
+    #cold-play{
+    margin: -1rem 1rem 5rem 2rem;
+    }
+
+    #zyan{
+    margin: -1rem 1rem 5rem 2.7rem;
+    }
+
+    #bruno{
+    margin: -1rem 1rem 5rem 1.5rem;
+    }
+
+   /*song gener*/
+
+  #song-gener-container{
+   	display: flex;
+   	justify-content: space-evenly;
+   	width: 62vw;
+   	height: 25vh;
+   	margin-left:3rem;
+   	margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.8rem;
+   	align-items: center;
+    background: linear-gradient(mediumpurple,purple,transparent);
+   }
+
+   .song-gener-pic{
+   	height: 6.5rem;
+   	width: 6.5rem;
+   	border-radius: 50%;
+   }
+
+   .song-gener-pic  img{
+   	height: 100%;
+    width: 100%;
+   	border-radius: 100%;
+   }
+   
+   #song-gener-pic0{
+   	height: 7rem;
+   	width: 7rem;
+    border: 2px solid grey;
+   }
+
+   #song-gener-pic0 img{
+   	height: 100%;
+    width: 100%;
+   }
+
+   .song-gener-pic-title{
+    position: absolute;
+    display:inline-block;
+    color:white;
+    margin-left: -6.5rem;
+    margin-top:2.5rem;
+    font-family: serif;
+    background-color: black;
+    width: inherit;
+    border-radius: 20px;
+  } 
+
+   /*song style*/
+
+   #song-style-container{
+   	display: flex;
+   	justify-content: space-evenly;
+   	width: 62vw;
+   	height: 29vh;
+    margin: 1rem 1rem 1.8rem 3rem;
+   	align-items: center;
+   }
+
+   .song-style-pic-container div{
+   	height: 9.5rem;
+   	width: 17rem;
+    }
+
+   .song-style-pic-container div img{
+   	height: 100%;
+   	width: 100%;
+    transition-duration: 0.5s;
+   }
+
+   .song-style-pic{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   }
+
+   .song-style-pic-container div img:hover{
+    transform: scale(1.2);
+   }
+
+   .song-style-pic-title{
+    position: absolute;
+    display:inline-block;
+    color:white;
+    margin-left: -11.5rem;
+    margin-top:3.5rem;
+    font-family: serif;
+    background-color: black;
+   }
+
+   /*latest english and tamil*/
+
+   #latest-tamil{
+      display: inline-block;
+   }
+
+   #latest-tamil-container{
+      display: inline-block;
+   }
+
+   .latest--container{
+   	display: flex;
+   	justify-content: space-evenly;
+   	width: 62vw;
+   	height: 32vh;
+   	margin-left:3rem;
+   	margin-top: 1rem;
+    margin-right: 1rem;
+  	margin-bottom: 1.8rem;
+   	align-items: center;
+   }
+
+   .latest--{
+   	display: block;
+   }
+   
+   .latest--pic{
+   	height: 6.5rem;
+   	width: 6.5rem;
+   	display: block;
+   }
+
+   .latest--pic img{
+   	height: 100%;
+   	width:  100%;
+   }
+
+   .latest--pic img:hover{
+    animation: changeShape 1s ease-in-out infinite;
+   }
+
+   @keyframes changeShape{
+    from{
+      transform: rotate(0deg);
+      }
+      30%{
+        transform: rotate(30deg);
+      }
+      60%{
+      transform: rotate(-30deg);
+      }
+
+    to{
+      transform: rotate(0deg);
+    }
+   }
+
+   .latest--name-dty{
+   	margin-top: -1rem;
+   	display: block;
+    color: white;
+    font-family: serif;
+   }
+
+   .latest--dty{
+   	margin-top: -1rem;
+    color: mediumpurple;
+   }
+
+   /*bottom music player (audio)*/
+
+   #audio{
+      display:none;
+      position: fixed;
+      height: 15vh;
+      width: 100vw;
+      top: 85vh;
+      background-color: purple;
+   }
+
+   #audio-container{
+      display: flex;      
+   }
+
+   #audio-img-name-author{
+     display: inline-block;
+     height: inherit;
+     width: 20%;
+     background-color: purple;
+   }
+
+   #audio-img{
+      display: inline-block;
+   }
+
+   #audio-img img{
+      padding-top: 0.5rem;
+      display: inherit;
+      height: 5rem;
+      width: 5rem;
+      padding-left: 0.4rem;
+   }
+
+   #audio-name-author{
+      display: inline-block;
+      vertical-align: top;
+      color:  navajowhite;
+      font-family: serif;
+      font-size: 1.2rem;
+      font-weight: 3rem;
+   }
+   
+   #audio-heart-ban{
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 1.5rem;
+      margin-left: 0.5rem;
+      position: absolute;
+   }
+
+    .fa-heart:hover{
+      color: red;
+    }
+    .fa-ban:hover{
+      color: black;
+    }
+
+   #audio-heart-ban a{
+    color: navajowhite;
+   }
+
+   .audio-name{
+      margin: 0;
+      margin-bottom: 1rem;
+      padding-top: 0.5rem;
+      margin-top: 0.7rem;
+      padding-left: 1rem;
+    }
+
+    .audio-author{
+      margin: 0;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+    }
+ 
+    #audio-widget-time{
+      display: inline-block;
+      height: inherit;
+      color: navajowhite;
+    }
+
+    #audio-widget-time{
+      display: flex;
+      height: inherit;
+      width: 50%;
+      background-color: purple;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    #audio-widget{
+      display: flex;
+      width: inherit;
+      height: auto;
+      justify-content: center;
+      background-color: purple;
+      align-items: center;
+    }
+
+    #audio-widget a{
+      color: navajowhite;
+    }
+
+    #audio-widget div{
+      display: inline-block;
+    }
+
+    .audio-widget-pad{
+      margin: 0 1rem 0 1rem;
+      padding: 0 0.5rem;
+    }
+    
+    .audio-widget-pad a i:hover {
+      color: grey;
+    }
+
+    .audio-widget-padd{
+      margin-top: 1rem;
+    }
+
+    .audio-widget-padd a i:hover {
+      color: grey;
+    }
+
+    #audio-time{
+      margin-top: 1rem;
+      display:flex;
+      align-items: center;
+    }
+
+    #audio-icons-sound a{
+      color: navajowhite;
+    }
+
+    .song-status{
+      height: 0.3rem;
+      width: 30rem;
+      background-color: grey;
+      border-radius: 20%;
+      box-shadow: 0 0 2px 2px white;
+    }
+
+    .one-thirty-nine{
+      height: 0.3rem;
+      width: 10rem;
+      background-image: linear-gradient(to right,cyan,darkcyan);
+      border-radius: 20%;
+    }
+
+    .one-thirty-nine::after{
+      content: '';
+      position: fixed;
+      margin-top: -0.1rem;   
+      margin-left: 10rem;
+      height: 0.5rem;
+      width: 0.5rem;
+      border-radius: 100%;
+      display: inline-block;
+      background-color: white;
+    }
+    
+     #audio-icons-sound{
+      display: flex;
+      height: inherit;
+      width: 30%;
+      background-color: purple;
+      justify-content: space-evenly;
+      align-items: center;
+     }
+
+     #audio-icons-sound a i:hover{
+      color: grey;
+     }
+
+    .sound-status{
+      height: 0.3rem;
+      width: 10rem;
+      background-color: grey;
+      border-radius: 20%;
+      box-shadow: 0 0 2px 2px white;
+    }
+
+    .fifty{
+      height: 0.3rem;
+      width: 5rem;
+      background-image: linear-gradient(to right,darkgreen,lightgreen);
+      border-radius: 20%;
+    }
+
+    .fifty::after{
+      content: '';
+      position: fixed;
+      margin-top: -0.2rem;   
+      margin-left: 5rem;
+      height: 0.7rem;
+      width: 0.7rem;
+      border-radius: 100%;
+      display: inline-block;
+      background-color: white;
+    }
